@@ -52,7 +52,7 @@ Early versions of NST treated the task as an optimization problem, requiring hun
 In this project we used a pre-trained "Arbitrary Neural Artistic Stylization Network" - a Fast-NST architecture which you can find [here](https://tfhub.dev/google/magenta/arbitrary-image-stylization-v1-256/2). The model is successfully trained on a corpus of roughly 80,000 paintings and is able to generalize to paintings previously unobserved.
 
 
-## To run
+## To run locally
 
 1. Download the pre-trained TF model from [here](https://tfhub.dev/google/magenta/arbitrary-image-stylization-v1-256/2).
 2. Import this repository using git command
