@@ -30,12 +30,15 @@ Style transfer is a computer vision technique that takes two images — a "conte
 
 The ‘encoding nature’ of CNN’s is the key in Neural Style Transfer. Firstly, we initialize a noisy image, which is going to be our output image(G). We then calculate how similar is this image to the content and style image at a particular layer in the network(VGG network). Since we want that our output image(G) should have the content of the content image(C) and style of style image(S) we calculate the loss of generated image(G) w.r.t to the respective content(C) and style(S) image.
 
+<br/> <!-- line break -->
 
+<div align="center">
+<img src="/Imgs/final_oss.png" width="45%" />
+</div>
 
+<br/> <!-- line break -->
 
-
-
-
+In simple words,we optimize our NST models to reduce the 'content loss' and the 'style loss'. The content loss function ensures that the activations of the higher layers are similar between the content image and the generated image. The style loss function makes sure that the correlation of activations in all the layers are similar between the style image and the generated image.
 
 
 
