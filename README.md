@@ -13,7 +13,7 @@ Neural Style Transfer (NST) refers to a class of software algorithms that manipu
 
 
 ## Objective 
-The main goal of this project is to explore Neural-style-transfer through implementation. We'll Implement a NST model using keras and at the end of the project we'll deploy it as a web app so that anyone can create stunning digital art which they could even sell as NFT's.
+The main goal of this project is to explore Neural-style-transfer through implementation. We'll Implement a NST model using Tensorflow and keras, and at the end of the project we'll deploy it as a web app so that anyone can create stunning digital art which they could even sell as NFT's.
 
 
 ## Summary of Neural Style Transfer
@@ -49,8 +49,14 @@ In simple words,we optimize our NST models to reduce the 'content loss' and the 
 
 Early versions of NST treated the task as an optimization problem, requiring hundreds or thousands of iterations to perform style transfer on a single image. To tackle this inefficiency, researchers developed what’s referred to as "Fast Neural Style Transfer". Fast style transfer also uses deep neural networks but trains a standalone model to transform any image in a single, feed-forward pass. Trained models can stylize any image with just one iteration through the network, rather than thousands.State-of-the-art style transfer models can even learn to imprint multiple styles via the same model so that a single input content image can be edited in any number of creative ways.
 
-In this project we used a pre-trained model
+In this project we used a pre-trained "Arbitrary Neural Artistic Stylization Network" - a Fast-NST architecture which you can find [here](https://tfhub.dev/google/magenta/arbitrary-image-stylization-v1-256/2). The model is successfully trained on a corpus of roughly 80,000 paintings and is able to generalize to paintings previously unobserved. 
 
+## To run
+
+1. Download the pre-trained TF model from [here](https://tfhub.dev/google/magenta/arbitrary-image-stylization-v1-256/2).
+2. ```
+Hello
+```
 
 
 ```python
