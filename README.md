@@ -47,8 +47,9 @@ In simple words,we optimize our NST models to reduce the 'content loss' and the 
 
 ## Implementation
 
+Early versions of NST treated the task as an optimization problem, requiring hundreds or thousands of iterations to perform style transfer on a single image. To tackle this inefficiency, researchers developed what’s referred to as "Fast Neural Style Transfer". Fast style transfer also uses deep neural networks but trains a standalone model to transform any image in a single, feed-forward pass. Trained models can stylize any image with just one iteration through the network, rather than thousands.State-of-the-art style transfer models can even learn to imprint multiple styles via the same model so that a single input content image can be edited in any number of creative ways.
 
-
+In this project we used a pre-trained model
 
 
 
@@ -67,6 +68,17 @@ plt.imsave('stylized_image.jpeg',img)
 plt.imshow(img)
 plt.show()
 ```
+
+## Some of the art we created in this project
+
+<div align="center">
+<img src="/Imgs/einstien_monalisa_cropped.png" width="90%"/>
+<img src="/Imgs/einstien_ggwood_cropped.png" width="90%"/> 
+<img src="/Imgs/feyman_monalisa_cropped.png" width="90%"/>
+<img src="/Imgs/feyman_ggwood_cropped.png" width="90%"/>
+<img src="/Imgs/women_monalisa_cropped.png" width="90%"/>
+</div>
+
 
 References :
 - https://arxiv.org/abs/1508.06576 
