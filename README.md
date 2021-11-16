@@ -72,11 +72,11 @@ plt.show()
 ## Some of the art we created in this project
 
 <div align="center">
-<img src="/Imgs/einstien_monalisa_cropped.png" width="90%"/>
-<img src="/Imgs/einstien_ggwood_cropped.png" width="90%"/> 
-<img src="/Imgs/feyman_monalisa_cropped.png" width="90%"/>
-<img src="/Imgs/feyman_ggwood_cropped.png" width="90%"/>
-<img src="/Imgs/women_monalisa_cropped.png" width="90%"/>
+<img src="/Imgs/einstien_monalisa_cropped.png" width="95%"/>
+<img src="/Imgs/einstien_ggwood_cropped.png" width="95%"/> 
+<img src="/Imgs/feyman_monalisa_cropped.png" width="95%"/>
+<img src="/Imgs/feyman_ggwood_cropped.png" width="95%"/>
+<img src="/Imgs/women_monalisa_cropped.png" width="95%"/>
 </div>
 
 
