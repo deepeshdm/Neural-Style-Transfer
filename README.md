@@ -3,13 +3,13 @@
 
 Neural Style Transfer (NST) refers to a class of software algorithms that manipulate digital images, or videos, in order to adopt the appearance or visual style of another image. NST algorithms are characterized by their use of deep neural networks for the sake of image transformation. Popular use cases for NST are the creation of artificial artwork from photographs, for example by transferring the appearance of famous paintings to user-supplied photographs.
 
-<br/> <!-- line break -->
+<br> <!-- line break -->
 
 <div align="center">
-<img src="/Imgs/nst.png" width="95%"/>
+<img src="/Imgs/nst.png"/>
 </div>
 
-<br/> <!-- line break -->
+<br> <!-- line break -->
 
 
 ## Objective 
@@ -22,9 +22,12 @@ Style transfer is a computer vision technique that takes two images — a "conte
 - A pre-trained feature extractor 
 - A transfer network
 
+
 <div align="center">
-<img src="/Imgs/nst architecture.jpg" width="75%"/>
+<img src="/Imgs/nst architecture.jpg" width="80%"/>
 </div>
+
+<br> <!-- line break -->
 
 
 
@@ -33,14 +36,16 @@ The ‘encoding nature’ of CNN’s is the key in Neural Style Transfer. Firstl
 
 
 <div align="center">
-<img src="/Imgs/final_oss.png" width="45%" />
+<img src="/Imgs/final_oss.png" width="50%" />
 </div>
+
+<br> <!-- line break -->
 
 
 In simple words,we optimize our NST models to reduce the 'content loss' and the 'style loss'. The content loss function ensures that the activations of the higher layers are similar between the content image and the generated image. The style loss function makes sure that the correlation of activations in all the layers are similar between the style image and the generated image.
 
 
-
+## Implementation
 
 
 
@@ -62,3 +67,24 @@ plt.imsave('stylized_image.jpeg',img)
 plt.imshow(img)
 plt.show()
 ```
+
+References :
+- https://arxiv.org/abs/1508.06576 
+- https://keras.io/examples/generative/neural_style_transfer/ 
+- https://arxiv.org/abs/1705.06830 
+- https://tfhub.dev/google/magenta/arbitrary-image-stylization-v1-256/2 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
