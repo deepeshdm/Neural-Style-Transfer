@@ -49,21 +49,28 @@ In simple words,we optimize our NST models to reduce the 'content loss' and the 
 
 Early versions of NST treated the task as an optimization problem, requiring hundreds or thousands of iterations to perform style transfer on a single image. To tackle this inefficiency, researchers developed what’s referred to as "Fast Neural Style Transfer". Fast style transfer also uses deep neural networks but trains a standalone model to transform any image in a single, feed-forward pass. Trained models can stylize any image with just one iteration through the network, rather than thousands.State-of-the-art style transfer models can even learn to imprint multiple styles via the same model so that a single input content image can be edited in any number of creative ways.
 
-In this project we used a pre-trained "Arbitrary Neural Artistic Stylization Network" - a Fast-NST architecture which you can find [here](https://tfhub.dev/google/magenta/arbitrary-image-stylization-v1-256/2). The model is successfully trained on a corpus of roughly 80,000 paintings and is able to generalize to paintings previously unobserved. 
+In this project we used a pre-trained "Arbitrary Neural Artistic Stylization Network" - a Fast-NST architecture which you can find [here](https://tfhub.dev/google/magenta/arbitrary-image-stylization-v1-256/2). The model is successfully trained on a corpus of roughly 80,000 paintings and is able to generalize to paintings previously unobserved.
+
 
 ## To run
 
 1. Download the pre-trained TF model from [here](https://tfhub.dev/google/magenta/arbitrary-image-stylization-v1-256/2).
-2. ```
-Hello
+2. Import this repository using git command
 ```
-
-
+git clone https://github.com/deepeshdm/Neural-Style-Transfer.git
+```
+3. Install all the required dependencies inside a virtual environment
+```
+pip install -r requirements.txt
+```
+4. Copy the below code snippet and pass the required variable values
 ```python
 import matplotlib.pylab as plt
 from API import transfer_style
 
+# Path of the downloaded pre-trained model 
 model_path = r"C:\Users\Desktop\magenta_arbitrary-image-stylization-v1-256_2"
+
 # NOTE : Works only for '.jpg' and '.png' extensions,other formats may give error
 content_image_path = r"C:\Users\Pictures\my_pic.jpg"
 style_image_path = r"C:\Users\Desktop\images\mona-lisa.jpg"
@@ -74,6 +81,7 @@ plt.imsave('stylized_image.jpeg',img)
 plt.imshow(img)
 plt.show()
 ```
+
 
 ## Some of the art we created in this project
 
