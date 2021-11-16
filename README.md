@@ -18,9 +18,15 @@ The main goal of this project is to explore Neural-style-transfer through implem
 
 ## Summary of Neural Style Transfer
 
-Style transfer is a computer vision technique that takes two images — a "content image" and "style image" — and blends them together so that the resulting output image retains the core elements of the content image, but appears to be “painted” in the style of the style reference image. Training a style transfer model requires two networks : 
+Style transfer is a computer vision technique that takes two images — a "content image" and "style image" — and blends them together so that the resulting output image retains the core elements of the content image, but appears to be “painted” in the style of the style reference image. Training a style transfer model requires two networks,which follow a encoder-decoder architecture : 
 - A pre-trained feature extractor 
 - A transfer network
+
+<div align="center">
+<img src="/Imgs/nst architecture.jpg" width="75%"/>
+</div>
+
+<br/> <!-- line break -->
 
 The ‘encoding nature’ of CNN’s is the key in Neural Style Transfer. Firstly, we initialize a noisy image, which is going to be our output image(G). We then calculate how similar is this image to the content and style image at a particular layer in the network(VGG network). Since we want that our output image(G) should have the content of the content image(C) and style of style image(S) we calculate the loss of generated image(G) w.r.t to the respective content(C) and style(S) image.
 
