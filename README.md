@@ -55,8 +55,9 @@ In this project we used a pre-trained "Arbitrary Neural Artistic Stylization Net
 ## To run locally
 
 1. Download the pre-trained TF model.
-The 'model' directory already contains the pre-trained model,but 
-you can also download the pre-trained model from the below TF HUB link: from [here](https://tfhub.dev/google/magenta/arbitrary-image-stylization-v1-256/2).
+
+    - The 'model' directory already contains the pre-trained model,but you can also download the pre-trained model from [here](https://tfhub.dev/google/magenta/arbitrary-image-stylization-v1-256/2).
+
 2. Import this repository using git command
 ```
 git clone https://github.com/deepeshdm/Neural-Style-Transfer.git
