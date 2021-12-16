@@ -11,7 +11,8 @@ def transfer_style(content_image, style_image, model_path):
     :param style_image: path of the style image
     :param model_path: path to the downloaded pre-trained model.
 
-    Download the pre-trained model from the below link:
+    The 'model' directory already contains the downloaded pre-trained model,but 
+    you can also download the pre-trained model from the below TF HUB link:
     https://tfhub.dev/google/magenta/arbitrary-image-stylization-v1-256/2
 
     :return: An image as 3D numpy array.
@@ -34,7 +35,7 @@ def transfer_style(content_image, style_image, model_path):
     style_image = tf.image.resize(style_image, (256, 256))
 
     print("Loading pre-trained model...")
-    # Load image NST model.
+    # The hub.load() loads any TF Hub model
     hub_module = hub.load(model_path)
 
     print("Generating stylized image now...wait a minute")

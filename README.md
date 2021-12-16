@@ -54,7 +54,9 @@ In this project we used a pre-trained "Arbitrary Neural Artistic Stylization Net
 
 ## To run locally
 
-1. Download the pre-trained TF model from [here](https://tfhub.dev/google/magenta/arbitrary-image-stylization-v1-256/2).
+1. Download the pre-trained TF model.
+The 'model' directory already contains the pre-trained model,but 
+you can also download the pre-trained model from the below TF HUB link: from [here](https://tfhub.dev/google/magenta/arbitrary-image-stylization-v1-256/2).
 2. Import this repository using git command
 ```
 git clone https://github.com/deepeshdm/Neural-Style-Transfer.git
@@ -68,7 +70,7 @@ pip install -r requirements.txt
 import matplotlib.pylab as plt
 from API import transfer_style
 
-# Path of the downloaded pre-trained model 
+# Path of the downloaded pre-trained model or 'model' directory
 model_path = r"C:\Users\Desktop\magenta_arbitrary-image-stylization-v1-256_2"
 
 # NOTE : Works only for '.jpg' and '.png' extensions,other formats may give error
