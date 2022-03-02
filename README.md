@@ -106,14 +106,25 @@ In order to make it easy for anyone to interact with the model,we created a clea
 
 ## 🖼🖌 Some of the art we created in this project
 
-<div align="center">
-<img src="/Imgs/einstien_monalisa_cropped.png" width="95%"/>
-<img src="/Imgs/einstien_ggwood_cropped.png" width="95%"/> 
-<img src="/Imgs/feyman_monalisa_cropped.png" width="95%"/>
-<img src="/Imgs/feyman_ggwood_cropped.png" width="95%"/>
-<img src="/Imgs/women_monalisa_cropped.png" width="95%"/>
+<div align="left">
+<img src="/Imgs/art1.png" width="45%"/>
+<img src="/Imgs/content1.jpg" width="45%"/>
 </div>
 
+<div align="left">
+<img src="/Imgs/art2.png" width="45%"/>
+<img src="/Imgs/content2.jpg" width="45%"/>
+</div>
+
+<div align="left">
+<img src="/Imgs/art3.png" width="45%"/>
+<img src="/Imgs/content3.jpg" width="45%"/>
+</div>
+
+<div align="left">
+<img src="/Imgs/art4.png" width="45%"/>
+<img src="/Imgs/content4.jpg" width="45%"/>
+</div>
 
 References :
 - https://arxiv.org/abs/1508.06576 
