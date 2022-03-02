@@ -107,23 +107,23 @@ In order to make it easy for anyone to interact with the model,we created a clea
 ## 🖼🖌 Some of the art we created in this project
 
 <div align="left">
+  <img src="/Imgs/content1.jpg" width="45%"/>
 <img src="/Imgs/art1.png" width="45%"/>
-<img src="/Imgs/content1.jpg" width="45%"/>
 </div>
 
 <div align="left">
-<img src="/Imgs/art2.png" width="45%"/>
 <img src="/Imgs/content2.jpg" width="45%"/>
+<img src="/Imgs/art2.png" width="45%"/>
 </div>
 
 <div align="left">
-<img src="/Imgs/art3.png" width="45%"/>
 <img src="/Imgs/content3.jpg" width="45%"/>
+<img src="/Imgs/art3.png" width="45%"/>
 </div>
 
 <div align="left">
-<img src="/Imgs/art4.png" width="45%"/>
 <img src="/Imgs/content4.jpg" width="45%"/>
+<img src="/Imgs/art4.png" width="45%"/>
 </div>
 
 References :
