@@ -1,4 +1,4 @@
-# Neural Style Transfer
+
 ### 🎨🖌 Creating Art with the help of Artificial Intelligence !
 
 **🔥 Official Website :** https://share.streamlit.io/deepeshdm/pixelmix/main/App.py
