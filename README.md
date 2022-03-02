@@ -96,7 +96,7 @@ plt.show()
 
 In order to make it easy for anyone to interact with the model,we created a clean web interface using Streamlit and deployed it on their official cloud space.
 
-- Checkout Official Website : https://share.streamlit.io/deepeshdm/pixelmixx/main/App.py
+- Checkout Official Website : https://share.streamlit.io/deepeshdm/pixelmix/main/App.py
 - Website Repository : [here](https://github.com/deepeshdm/PixelMix/blob/main/README.md)
 
 <div align="center">
